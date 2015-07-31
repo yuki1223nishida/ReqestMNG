@@ -1,0 +1,307 @@
+/* 必須 
+-----------------------------------------*/ 
+.ex_essential{ 
+    color:#CC0000; 
+    font-weight:normal; 
+} 
+/* エラー 
+-----------------------------------------*/ 
+  
+/* 注釈 
+-----------------------------------------*/ 
+.ex_comment{ 
+    color:#666; 
+} 
+
+/* 入力フォームレイアウト 
+-----------------------------------------*/ 
+.mod_form{ 
+    margin:0 auto; 
+    margin-bottom:20px; 
+    padding:20px; 
+    width: 700px; 
+    border:solid 5px #EEE; 
+} 
+.mod_form p.point{ 
+    text-align:right; 
+} 
+.mod_form table{ 
+    width:100%; 
+    border-collapse:separate; 
+    border-spacing:2px; 
+} 
+.mod_form table tr th{ 
+    padding:10px; 
+    white-space: nowrap; 
+    font-weight:bold; 
+    vertical-align: top; 
+    border-bottom:solid 1px #C1D0E3; 
+    background-color:#EBF0F6; 
+} 
+.mod_form table tr td{ 
+    width:70%; 
+    padding:10px; 
+    border-bottom:solid 1px #B6D1F5; 
+} 
+  
+/* フォーム内2段組 
+-----------------------------------------*/ 
+.mod_form_listbox{ 
+    width:100%; 
+} 
+.mod_form_listbox_left{ 
+    float:left; 
+    width:50%; 
+} 
+.mod_form_listbox_right{ 
+    float:left; 
+    width:50%; 
+} 
+  
+/* 入力パーツ 
+-----------------------------------------*/ 
+label { 
+  cursor: pointer; 
+} 
+select#item, 
+select#address01, 
+select#maker, 
+select#color{ 
+    width:250px; 
+} 
+select#nengou, 
+select#year, 
+select#month, 
+select#day{ 
+    width:60px; 
+} 
+select#material_update_item1,
+select#material_update_item2,
+select#material_update_item3,
+select#material_update_item4,
+select#material_update_item5,
+select#material_update_item6,
+select#material_update_item7 {
+	height:23px;
+    width:260px; 
+}
+input, 
+textarea{ 
+    border:solid 1px #CCCCCC; 
+} 
+.mod_form_listbox input{ 
+    border:none; 
+} 
+input#textShort{ 
+    width:150px; 
+    height:1.4em; 
+} 
+input#textMiddle{ 
+    width:250px; 
+    height:1.4em; 
+} 
+input#textLong{ 
+    width:350px; 
+    height:1.4em; 
+} 
+textarea{ 
+    width:450px; 
+} 
+/* フォーカス・チェック 
+-----------------------------------------*/ 
+input:focus,
+input:hover, 
+textarea:focus, 
+textarea:hover{ 
+    background-color:#FFFFCC; 
+} 
+input:checked + label{ 
+    background-color:#FFFFCC; 
+    font-weight:bold; 
+} 
+  
+/* 重要なお知らせの同意 
+-----------------------------------------*/ 
+.mod_form_importance{ 
+    margin:20px 0 0 0; 
+    padding:10px; 
+    border:double 3px #CCC; 
+    background-color:#DDD; 
+} 
+.mod_form_importance h2{ 
+    font-weight:bold; 
+    text-align:center;
+} 
+.mod_form_importance_txt{ 
+    width:634px; 
+    height:450px; 
+    overflow:scroll; 
+    margin:10px 0 20px 0; 
+    padding:10px 20px 15px 20px; 
+    background-color:#FFF; 
+} 
+.mod_form_importance_txt h3{ 
+    margin:10px 0 5px 0; 
+    font-weight:bold; 
+    border-bottom:solid 1px #DDD; 
+} 
+.mod_form_importance_btn{ 
+    text-align:center; 
+} 
+  
+/* 送信ボタンとエラー表示 
+-----------------------------------------*/ 
+.mod_form_btn{ 
+    margin:20px 0 0 0; 
+    text-align:center; 
+} 
+  
+.mod_form_btn input#back, 
+.mod_form_btn input#submit{ 
+    width:150px; 
+    padding:5px; 
+} 
+  
+/* 送信ボタンとエラー表示 
+-----------------------------------------*/ 
+.form_btn{ 
+    margin:20px 0 0 0; 
+    text-align:center; 
+} 
+
+    
+  
+/* clearfix：float解除＆親要素に高さを算出させる 
+-----------------------------------------*/ 
+.ex_clearfix:after { 
+  content: ".";  /* 新しい要素を作る */ 
+  display: block;  /* ブロックレベル要素に */ 
+  clear: both; 
+  height: 0; 
+  visibility: hidden; 
+} 
+.ex_clearfix { 
+  min-height: 1px; 
+} 
+* html .ex_clearfix { 
+  height: 1px; 
+  /*\*//*/ 
+  height: auto; 
+  overflow: hidden; 
+  /**/ 
+} 
+
+/* 項目
+-----------------------------------------*/ 
+.item_header {
+	text-align: center;
+	line-height: 20px;
+}
+.item_header_finish {
+	text-align: center;
+	line-height: 20px;
+	color: #F00;
+}
+.item_title {
+	text-align: left;
+	line-height: 20px;
+}
+.item_sub_title {
+	text-align: right;
+	line-height: 23px;
+}
+
+/* セレクトテーブル
+-----------------------------------------*/
+.select_form{ 
+    margin:0 auto; 
+    margin-bottom:20px; 
+    padding:20px; 
+    width: 95%; 
+    border:solid 5px #EEE; 
+} 
+.select_form p.point{ 
+    text-align:right; 
+} 
+.select_form table{ 
+    width:100%; 
+    border-collapse:separate; 
+    border-spacing:2px; 
+} 
+.select_form table tr th{ 
+    padding:5px; 
+    white-space: nowrap; 
+    font-weight:bold; 
+    vertical-align: top; 
+    border-bottom:solid 1px #C1D0E3; 
+    background-color:#EBF0F6; 
+} 
+.select_form table tr td{ 
+    width:70%; 
+    padding:5px; 
+    vertical-align: top; 
+    border-bottom:solid 1px #B6D1F5; 
+} 
+.select_header {
+	text-align: left;
+	line-height: 20px;
+	vertical-align: middle; 
+}
+
+.select_form_btn{ 
+    margin:20px 0 0 0; 
+    width:100%; 
+    height:50px; 
+	vertical-align: middle; 
+    text-align:center; 
+} 
+
+/* 確認画面レイアウト 
+-----------------------------------------*/ 
+.onfirmation_form{ 
+    margin:0 auto; 
+    margin-bottom:20px; 
+    padding:20px; 
+    width: 700px; 
+    border:solid 5px #EEE; 
+} 
+.onfirmation_form p.point{ 
+    text-align:right; 
+} 
+.onfirmation_form table{ 
+    width:100%; 
+    border:solid 1px #C1D0E3; 
+    border-collapse:separate; 
+    border-spacing:2px; 
+} 
+.onfirmation_form table tr th{ 
+    padding:10px; 
+    white-space: nowrap; 
+    font-weight:bold; 
+    vertical-align: top; 
+    border-bottom:solid 1px #C1D0E3; 
+    background-color:#EBF0F6; 
+} 
+.onfirmation_form table tr td{ 
+    width:70%; 
+    padding:10px; 
+    border-bottom:solid 1px #B6D1F5; 
+} 
+
+/* 画面下部ボタン
+-----------------------------------------*/
+.mainButton{
+	width:170px; 
+	height:35px; 
+	border:1px solid #000;
+    vertical-align: middle; 
+	background-color: #eee;
+	-moz-border-radius: 8px;    /* Firefox */
+	-webkit-border-radius: 8px; /* Safari,Chrome */
+	border-radius: 8px;         /* CSS3 */
+}
+  
+.mainButton:hover{
+	border:1px solid #26a0da;
+	background-color: #a6f4ff;
+}
