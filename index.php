@@ -1,10 +1,7 @@
-<?php
-  include('./common/src/DBConnect.php');
-?>
 <!DOCTYPE html>
-<html lang="ja">
+<html >
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type"  charset="utf-8" />
     <title>リクエスト</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge chrome=1" />
     <script type="text/javascript" src="common/js/jquery-1.11.2.min.js"></script>
@@ -16,7 +13,7 @@
     <script type="text/javascript">
       <!--
         jQuery( function() {
-           if($("#datepickerST").val() == ""){
+          if($("#datepickerST").val() == ""){
             $("#datepickerST").datepicker();
             $("#datepickerST").datepicker('setDate', 'today');
           }else{
@@ -35,7 +32,6 @@
   <body>
     <div id="header" class="mod_form">
       <div class="description"></div>
-        <table >
         <table>
           <tr>
             <th>
@@ -52,8 +48,6 @@
             </td>
           </tr>
         </table>
-      </div>
-      <div id="">
       </div>
     </div>
   </body>
